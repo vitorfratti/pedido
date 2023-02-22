@@ -12,11 +12,11 @@ let porcentagem = 0;
 document.getElementById('porcentagem').innerHTML = porcentagem
 
 function aumentarPorcentagem(event) {
-    if(event.target.innerHTML === '+') {
+    if(event.target.value === '+') {
         porcentagem += 10
         document.getElementById('porcentagem').innerHTML = porcentagem
         document.getElementById('teamo').style.opacity = porcentagem + '%'
-    } else if(event.target.innerHTML === '-') {
+    } else if(event.target.value === '-') {
         porcentagem -= 10
         document.getElementById('porcentagem').innerHTML = porcentagem
         document.getElementById('teamo').style.opacity = porcentagem + '%'
@@ -60,12 +60,13 @@ function next() {
         document.getElementById('cinco').classList.remove('none')
         document.getElementById('cinco').classList.add('animate__bounceInRight')
     }, 300)
-    setTimeout(() => {
-        document.getElementById('cinco').classList.add('animate__bounceOutLeft')
-    }, 3000)
+}
+
+document.getElementById('cinco__button').addEventListener('click', () => {
+    document.getElementById('cinco').classList.add('animate__bounceOutLeft')
     setTimeout(() => {
         document.getElementById('cinco').classList.add('none')
         document.getElementById('seis').classList.remove('none')
         document.getElementById('seis').classList.add('animate__bounceInRight')
-    }, 3300)
-}
+    }, 300)
+})
