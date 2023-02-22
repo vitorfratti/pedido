@@ -14,10 +14,16 @@ document.getElementById('porcentagem').innerHTML = porcentagem
 function aumentarPorcentagem(event) {
     if(event.target.value === '+') {
         porcentagem += 10
+        if(porcentagem >= 100) {
+            porcentagem = 100
+        }
         document.getElementById('porcentagem').innerHTML = porcentagem
         document.getElementById('teamo').style.opacity = porcentagem + '%'
     } else if(event.target.value === '-') {
         porcentagem -= 10
+        if(porcentagem <= 0) {
+            porcentagem = 0
+        }
         document.getElementById('porcentagem').innerHTML = porcentagem
         document.getElementById('teamo').style.opacity = porcentagem + '%'
     }
