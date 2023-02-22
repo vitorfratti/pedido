@@ -72,7 +72,7 @@ section.dois .dois__container {
   height: 36rem;
 }
 section.dois .dois__container .top {
-  height: 9rem;
+  height: 8rem;
   display: grid;
   align-content: space-between;
   text-align: center;
