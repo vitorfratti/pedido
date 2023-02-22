@@ -38,7 +38,7 @@ document.getElementById('dois__button').addEventListener('click', () => {
             document.getElementById('tres').classList.add('animate__bounceInRight')
         }, 300)
     } else {
-        alert('Amor insuficiente 😪')
+        alert('Amor Insuficiente 😪')
     }
 })
 

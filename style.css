@@ -19,7 +19,7 @@ body {
 
 section.um {
   width: 100%;
-  height: 100vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ section.um {
 section.um .um__container {
   display: grid;
   align-content: space-between;
-  height: 26rem;
+  height: 24rem;
 }
 section.um .um__container div {
   text-align: center;
@@ -60,7 +60,7 @@ section.um .um__container div button {
 
 section.dois {
   width: 100%;
-  height: 85vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,7 +69,7 @@ section.dois {
 section.dois .dois__container {
   display: grid;
   align-content: space-between;
-  height: 38rem;
+  height: 36rem;
 }
 section.dois .dois__container .top {
   height: 9rem;
