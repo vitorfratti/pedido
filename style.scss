@@ -20,7 +20,7 @@ body {
 
 section.um {
     width: 100%;
-    height: 95vh;
+    height: 92vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,6 +72,7 @@ section.dois {
         display: grid;
         align-content: space-between;
         height: 36rem;
+
         .top {
             height: 9rem;
             display: grid;
@@ -172,9 +173,10 @@ section.tres {
     .tres__container {
         display: grid;
         align-content: space-between;
-        height: 36rem;
+        height: 38rem;
+        padding-top: 2rem;
         .top {
-            height: 9rem;
+            height: 8rem;
             display: grid;
             align-content: space-between;
             text-align: center;
