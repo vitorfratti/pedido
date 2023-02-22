@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./image/question.png" type="image/x-icon">
+    <title>Segredo</title>
+</head>
+<body>
+
+    <section class="um animate__animated" id="um">
+        <div class="um__container">
+            <div>
+                <h1>PARABÉNS!!</h1>
+                <h1>🥳🥳🥳</h1>
+            </div>
+            <div>
+                <h3>Você acabou de desbloquear umas perguntinhas...</h3>
+            </div>
+            <div>
+                <button id="um__button">Clique aqui</button>
+            </div>
+        </div>
+      </section>
+
+    <section class="dois animate__animated none" id="dois">
+        <div class="dois__container">
+            <div class="top">
+                <h2 class="number__question">1.</h2>
+                <h2 class="question">O quanto você ama este belo garoto?</h2>
+            </div>
+            <div class="mid">
+                <div class="image__container">
+                    <h2 id="teamo">TE AMO 🧡</h2>
+                </div>
+                <div class="porcentagem__container">
+                    <button onclick="aumentarPorcentagem(event)">-</button>
+                    <span>
+                        <h2 id="porcentagem"></h2>
+                        <h2>%</h2>
+                    </span>
+                    <button onclick="aumentarPorcentagem(event)">+</button>
+                </div>
+            </div>
+            <div class="bottom">
+                <button id="dois__button">-></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="tres animate__animated none" id="tres">
+        <div class="tres__container">
+            <div class="errou__container">
+                <h1>🚨 Errou = BLOCK 🚨 </h1>
+            </div>
+            <div class="top">
+                <h2 class="number__question">2.</h2>
+                <h2 class="question">E quando foi o primeiro beijo com ele?</h2>
+            </div>
+            <div class="bottom">
+                <button onclick="respostaCorreta(event)">12/09</button>
+                <button onclick="respostaCorreta(event)">13/09</button>
+                <button onclick="respostaCorreta(event)">14/09</button>
+                <button onclick="respostaCorreta(event)">15/09</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="quatro animate__animated none" id="quatro">
+        <div class="quatro__container">
+            <div class="top">
+                <h1>Então quer dizer que hoje vocês completam <span>6 MESES</span> de amizade?</h1>
+                <h1>🤔🤔🤔</h1>
+            </div>
+            <div class="bottom">
+                <button onclick="next()">Sim</button>
+                <button onclick="next()">Infelizmente</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="cinco animate__animated none" id="cinco">
+        <div class="cinco__container">
+            <h1 class="h1">Então acho que tá na hora da última pergunta...</h1>
+            <h1>-></h1>
+        </div>
+    </section>
+
+    <section class="seis animate__animated none" id="seis">
+        <div class="seis__container">
+            <div class="top">
+                <h1>QUER NAMORAR COMIGO?</h1>
+                <h1>💍💍💍</h1>
+            </div>
+            <div class="bottom">
+                <button>Sim</button>
+                <button>Sim</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

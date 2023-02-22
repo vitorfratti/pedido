@@ -1,0 +1,348 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.none {
+  display: none !important;
+}
+
+body {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+section.um {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.um .um__container {
+  display: grid;
+  align-content: space-between;
+  height: 26rem;
+}
+section.um .um__container div {
+  text-align: center;
+}
+section.um .um__container div h1 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #000;
+}
+section.um .um__container div h3 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #000;
+  width: 325px;
+  height: 87px;
+}
+section.um .um__container div button {
+  width: 243px;
+  height: 89px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+section.dois {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.dois .dois__container {
+  display: grid;
+  align-content: space-between;
+  height: 38rem;
+}
+section.dois .dois__container .top {
+  height: 9rem;
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+}
+section.dois .dois__container .top h2.number__question {
+  font-size: 24px;
+  font-weight: 700;
+}
+section.dois .dois__container .top h2.question {
+  font-size: 24px;
+  font-weight: 500;
+  width: 284px;
+  height: 58px;
+}
+section.dois .dois__container .mid {
+  height: 18rem;
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+}
+section.dois .dois__container .mid .image__container {
+  width: 228px;
+  height: 179px;
+  background: #d9d9d9;
+  margin: 0 auto;
+}
+section.dois .dois__container .mid .image__container h2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 228px;
+  height: 4rem;
+  background: rgba(187, 0, 0, 0.7882352941);
+  color: #fefefe;
+  opacity: 0;
+}
+section.dois .dois__container .mid .porcentagem__container {
+  width: 228px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+section.dois .dois__container .mid .porcentagem__container span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.dois .dois__container .mid .porcentagem__container span h2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+section.dois .dois__container .mid .porcentagem__container button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  border: none;
+  font-size: 32px;
+  font-weight: 500;
+  background: #000;
+  color: #fefefe;
+  cursor: pointer;
+}
+section.dois .dois__container .bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section.dois .dois__container .bottom button {
+  width: 243px;
+  height: 62px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  color: #fefefe;
+}
+
+section.tres {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.tres .tres__container {
+  display: grid;
+  align-content: space-between;
+  height: 38rem;
+}
+section.tres .tres__container .top {
+  height: 9rem;
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+}
+section.tres .tres__container .top h2.number__question {
+  font-size: 24px;
+  font-weight: 700;
+}
+section.tres .tres__container .top h2.question {
+  font-size: 24px;
+  font-weight: 500;
+  width: 284px;
+  height: 58px;
+}
+section.tres .tres__container .bottom {
+  display: grid;
+  align-content: space-between;
+  width: 243px;
+  height: 388px;
+  margin: 0 auto;
+}
+section.tres .tres__container .bottom button {
+  font-size: 20px;
+  font-weight: 400;
+  color: #fefefe;
+  width: 243px;
+  height: 80px;
+  background: #000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  cursor: pointer;
+}
+
+.errou__container {
+  position: absolute;
+  width: 375px;
+  height: 90px;
+  left: 0;
+  top: 0;
+  background: rgba(189, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.errou__container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+}
+
+.right {
+  background: #1c8d00 !important;
+}
+
+.wrong {
+  background: #c40000 !important;
+}
+
+section.quatro {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.quatro .quatro__container {
+  display: grid;
+  align-content: space-between;
+  height: 25rem;
+}
+section.quatro .quatro__container .top {
+  height: 15rem;
+  display: grid;
+  align-content: space-between;
+  text-align: center;
+}
+section.quatro .quatro__container .top h1 {
+  width: 254px;
+  height: 116px;
+  color: #000;
+  font-size: 24px;
+  font-weight: 500;
+}
+section.quatro .quatro__container .top h1 span {
+  font-weight: 600;
+}
+section.quatro .quatro__container .bottom {
+  display: grid;
+  align-content: space-between;
+  height: 175px;
+}
+section.quatro .quatro__container .bottom button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 243px;
+  height: 73px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fefefe;
+  cursor: pointer;
+}
+
+section.cinco {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.cinco .cinco__container {
+  display: grid;
+  align-content: space-between;
+  height: 15rem;
+}
+section.cinco .cinco__container h1 {
+  width: 254px;
+  height: 87px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  color: #000;
+}
+
+section.seis {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fefefe;
+}
+section.seis .seis__container {
+  display: grid;
+  align-content: space-between;
+  height: 22rem;
+}
+section.seis .seis__container .top {
+  display: grid;
+  align-content: space-between;
+}
+section.seis .seis__container .top h1 {
+  width: 330px;
+  height: 78px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  color: #000;
+}
+section.seis .seis__container .bottom {
+  display: grid;
+  align-content: space-between;
+  width: 243px;
+  height: 169px;
+  margin: 0 auto;
+}
+section.seis .seis__container .bottom button {
+  width: 243px;
+  height: 73px;
+  background: #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2509803922);
+  border-radius: 20px;
+  font-size: 24px;
+  font-weight: 400;
+  color: #fefefe;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
