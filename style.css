@@ -100,7 +100,8 @@ section.dois .dois__container .mid .image__container {
   margin: 0 auto;
 }
 section.dois .dois__container .mid .image__container h2 {
-  position: absolute;
+  position: fixed;
+  margin-top: 3.5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,7 +284,7 @@ section.quatro .quatro__container .bottom button {
 
 section.cinco {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   display: flex;
   justify-content: center;
   align-items: center;
