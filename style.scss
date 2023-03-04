@@ -68,6 +68,20 @@ section.dois {
     justify-content: center;
     align-items: center;
     background: #fefefe;
+
+    h2#teamo {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+        height: 4rem;
+        background: #bb0000c9;
+        color: #fefefe;
+        opacity: 0;
+        margin-top: -2rem;
+    }
+
     .dois__container {
         display: grid;
         align-content: space-between;
@@ -104,19 +118,6 @@ section.dois {
                 img {
                     width: 100%;
                     height: 100%;
-                }
-
-                h2 {
-                    position: fixed;
-                    margin-top: 3.5rem;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    width: 300px;
-                    height: 4rem;
-                    background: #bb0000c9;
-                    color: #fefefe;
-                    opacity: 0;
                 }
             }
             .porcentagem__container {
