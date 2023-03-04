@@ -98,6 +98,11 @@ section.dois .dois__container .mid .image__container {
   height: 179px;
   background: #d9d9d9;
   margin: 0 auto;
+  padding: 1rem;
+}
+section.dois .dois__container .mid .image__container img {
+  width: 100%;
+  height: 100%;
 }
 section.dois .dois__container .mid .image__container h2 {
   position: fixed;
