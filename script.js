@@ -76,3 +76,22 @@ document.getElementById('cinco__button').addEventListener('click', () => {
         document.getElementById('seis').classList.add('animate__bounceInRight')
     }, 300)
 })
+
+const checkboxHeart = document.getElementById('checkbox__heart')
+const svg = document.getElementById('svg')
+
+checkboxHeart.addEventListener('click', () => {
+    if(checkboxHeart.checked === true) {
+        checkboxHeart.style.animation = 'check .45s linear forwards'
+        checkboxHeart.style.fill = '#ec638e'
+        checkboxHeart.style.stroke = '#ec4472'
+        svg.style.fill = '#ec638e'
+        svg.style.stroke = '#ec4472'
+    } else {
+        checkboxHeart.style.animation = 'uncheck .45s linear forwards'
+        checkboxHeart.style.fill = '#fff'
+        checkboxHeart.style.stroke = '#D1D6EE'
+        svg.style.fill = '#fff'
+        svg.style.stroke = '#D1D6EE'
+    }
+})
