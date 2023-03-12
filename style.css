@@ -28,7 +28,7 @@ section.um {
 section.um .um__container {
   display: grid;
   align-content: space-between;
-  height: 22rem;
+  height: 23.5rem;
 }
 section.um .um__container div {
   text-align: center;
@@ -527,4 +527,28 @@ body .twitter svg {
   width: 32px;
   height: 32px;
   fill: #1da1f2;
+}
+
+button#um__button.animate__jackInTheBox {
+  animation-duration: 6s;
+}
+
+div.animate__zoomInUp {
+  animation-duration: 3s;
+}
+
+button.r.animate__fadeInUp {
+  animation-duration: 3s;
+}
+
+button.rd.animate__fadeInUp {
+  animation-duration: 5s;
+}
+
+button#cinco__button.animate__fadeInDown {
+  animation-duration: 5s;
+}
+
+div.animate__fadeInUp {
+  animation-duration: 2s;
 }/*# sourceMappingURL=style.css.map */
