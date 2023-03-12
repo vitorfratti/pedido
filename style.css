@@ -43,7 +43,7 @@ section.um .um__container div h3 {
   font-weight: 400;
   line-height: 29px;
   color: #000;
-  width: 325px;
+  max-width: 325px;
   height: 87px;
 }
 section.um .um__container div button {
@@ -96,7 +96,7 @@ section.dois .dois__container .top h2.number__question {
 section.dois .dois__container .top h2.question {
   font-size: 24px;
   font-weight: 500;
-  width: 284px;
+  max-width: 284px;
   height: 58px;
 }
 section.dois .dois__container .mid {
@@ -188,7 +188,7 @@ section.tres .tres__container .top h2.number__question {
 section.tres .tres__container .top h2.question {
   font-size: 24px;
   font-weight: 500;
-  width: 300px;
+  max-width: 300px;
   height: 58px;
 }
 section.tres .tres__container .bottom {
@@ -248,7 +248,7 @@ section.quatro {
 section.quatro .quatro__container {
   display: grid;
   align-content: space-between;
-  height: 24rem;
+  height: 21rem;
 }
 section.quatro .quatro__container .top {
   height: 10.5rem;
@@ -257,7 +257,7 @@ section.quatro .quatro__container .top {
   text-align: center;
 }
 section.quatro .quatro__container .top h1 {
-  width: 238px;
+  max-width: 238px;
   color: #000;
   font-size: 24px;
   font-weight: 500;
@@ -318,7 +318,7 @@ section.cinco .cinco__container h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 254px;
+  max-width: 254px;
   height: 120px;
   text-align: center;
   font-size: 24px;
@@ -338,15 +338,16 @@ section.seis .seis__container {
   display: grid;
   align-content: space-between;
   height: 23rem;
-  padding-top: 3.75rem;
+  padding-top: 3rem;
 }
 section.seis .seis__container .top {
-  display: grid;
-  align-content: space-between;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 section.seis .seis__container .top h1 {
-  width: 330px;
-  height: 78px;
+  max-width: 200px;
+  height: 210px;
   text-align: center;
   font-size: 32px;
   font-weight: 400;
