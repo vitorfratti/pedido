@@ -28,7 +28,7 @@ section.um {
 section.um .um__container {
   display: grid;
   align-content: space-between;
-  height: 24rem;
+  height: 22rem;
 }
 section.um .um__container div {
   text-align: center;
@@ -248,7 +248,7 @@ section.quatro {
 section.quatro .quatro__container {
   display: grid;
   align-content: space-between;
-  height: 25rem;
+  height: 24rem;
 }
 section.quatro .quatro__container .top {
   height: 10.5rem;
@@ -257,7 +257,7 @@ section.quatro .quatro__container .top {
   text-align: center;
 }
 section.quatro .quatro__container .top h1 {
-  width: 235px;
+  width: 238px;
   color: #000;
   font-size: 24px;
   font-weight: 500;
@@ -338,7 +338,7 @@ section.seis .seis__container {
   display: grid;
   align-content: space-between;
   height: 23rem;
-  padding-top: 2.5rem;
+  padding-top: 2.75rem;
 }
 section.seis .seis__container .top {
   display: grid;
