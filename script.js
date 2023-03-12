@@ -91,6 +91,7 @@ function next() {
         document.getElementById('quatro').classList.add('none')
         document.getElementById('cinco').classList.remove('none')
         document.getElementById('cinco').classList.add('animate__bounceInRight')
+        document.getElementById('cinco__button').classList.add('animate__fadeInUp')
         typeWrite(textoCinco)
     }, 300)
 }
@@ -103,6 +104,7 @@ document.getElementById('cinco__button').addEventListener('click', () => {
         document.getElementById('cinco').classList.add('none')
         document.getElementById('seis').classList.remove('none')
         document.getElementById('seis').classList.add('animate__bounceInRight')
+        document.getElementById('bottom__cinco').classList.add('animate__fadeInUp')
         typeWrite(textoSeis)
     }, 300)
 })

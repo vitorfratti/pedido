@@ -530,11 +530,11 @@ body .twitter svg {
 }
 
 button#um__button.animate__jackInTheBox {
-  animation-duration: 6s;
+  animation-duration: 5s;
 }
 
 div.animate__zoomInUp {
-  animation-duration: 3s;
+  animation-duration: 4s;
 }
 
 button.r.animate__fadeInUp {
@@ -542,13 +542,13 @@ button.r.animate__fadeInUp {
 }
 
 button.rd.animate__fadeInUp {
-  animation-duration: 5s;
+  animation-duration: 10s;
 }
 
-button#cinco__button.animate__fadeInDown {
-  animation-duration: 5s;
+button.animate__fadeInUp {
+  animation-duration: 9s;
 }
 
 div.animate__fadeInUp {
-  animation-duration: 2s;
+  animation-duration: 3s;
 }/*# sourceMappingURL=style.css.map */
